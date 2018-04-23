@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import {HeaderComponent} from './components/header/header.component';
 import {MenuComponent} from './components/menu/menu.component';
 import {GalleryComponent} from './components/gallery/gallery.component';
 import {ContactsComponent} from './components/contacts/contacts.component';
+import {MainComponent} from './components/main/main.component';
+import {BookformComponent} from './components/bookform/bookform.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HeaderComponent
+    component: MainComponent
   },
   {
     path: 'menu',
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'contacts',
     component: ContactsComponent
+  },
+  {
+    path: 'booktable',
+    component: BookformComponent
   }
 ];
 
