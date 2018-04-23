@@ -1,0 +1,23 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+.header__list-item {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
