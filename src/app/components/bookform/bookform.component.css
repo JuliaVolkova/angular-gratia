@@ -22,11 +22,15 @@
 .bookform__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.bookform__footer {
+  height: 200px;
 }
 
 .bookform__header {
@@ -34,10 +38,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('../../../assets/images/Gratia.png');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center; 
+  width: 600px;
+  height: 200px;
+}
+
+.bookform__head {
+  margin: 0;
 }
 
 .bookform__note {
   color: #ccc;
+  font-family: "CrimsonText Italic";
+  margin: 0;
 }
 
 .bookform__line-1, .bookform__line-2,
@@ -49,7 +65,7 @@
 }
 
 .bookform__line-2 > input, .bookform__line-3 > input {
-  width: 48%;
+  width: 48.2%;
   height: 35px;
 }
 
@@ -78,7 +94,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: space-between;
-  width: 49%;
+  width: 48.5%;
 }
 
 .bookform__line-1_width > input {

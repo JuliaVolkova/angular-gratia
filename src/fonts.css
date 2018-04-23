@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "CrimsonText Italic";
+  src: local("CrimsonText Italic"), local("CrimsonText-Italic"),
+      url("./assets/fonts/CrimsonText/CrimsonText-Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+      url("./assets/fonts/Montserrat/Montserrat-Bold.ttf") format("ttf");
+}
