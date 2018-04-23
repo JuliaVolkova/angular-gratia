@@ -7,18 +7,37 @@
   justify-content: space-between;
 }
 
+.bookform__prepare-menu {
+  background-color: #151b28;
+}
+
+.bookform__prepare-menu::placeholder {
+  color: #d89b64;
+}
+
 .bookform__form > input {
   height: 50px;
 }
 
 .bookform__container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.bookform__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookform__note {
+  color: #ccc;
 }
 
 .bookform__line-1, .bookform__line-2,
@@ -32,6 +51,24 @@
 .bookform__line-2 > input, .bookform__line-3 > input {
   width: 48%;
   height: 35px;
+}
+
+.bookform__line-2 > input::placeholder,
+.bookform__line-3 > input::placeholder {
+  padding-left: 10px;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+input {
+  border: none;
+  box-shadow: 0 0 50px #ccc;
+  font-size: 14px;
+  
 }
 
 .bookform__textarea {
@@ -59,8 +96,18 @@
 .bookform__textarea {
   box-sizing: border-box;
   height: 130px;
+  box-shadow: 0 0 50px #ccc;
+  border: none;
+}
+
+.bookform__textarea::placeholder {
+  padding: 10px;
+  color: #ccc;
 }
 
 .bookform__button {
   height: 35px;
+  border: none;
+  background-color: #d79b64;
+  color: white;
 }
