@@ -11,25 +11,27 @@ import { MenuComponent } from './components/menu/menu.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { BookformComponent } from './components/bookform/bookform.component';
+import { OffersComponent } from './components/offers/offers.component';
 
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HeaderComponent,
-        PromoComponent,
-        MainComponent,
-        MenuComponent,
-        GalleryComponent,
-        ContactsComponent,
-        BookformComponent
-    ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        FormsModule
-    ],
-    providers: [],
-    bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    PromoComponent,
+    MainComponent,
+    MenuComponent,
+    GalleryComponent,
+    ContactsComponent,
+    BookformComponent,
+    OffersComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
