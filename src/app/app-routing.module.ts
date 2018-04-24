@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import {MenuComponent} from './components/menu/menu.component';
-import {GalleryComponent} from './components/gallery/gallery.component';
-import {ContactsComponent} from './components/contacts/contacts.component';
-import {MainComponent} from './components/main/main.component';
-import {BookformComponent} from './components/bookform/bookform.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+import { MainComponent } from './components/main/main.component';
+import { BookformComponent } from './components/bookform/bookform.component';
 
 const routes: Routes = [
   {

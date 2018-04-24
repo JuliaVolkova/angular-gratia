@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { NgClass } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -28,8 +27,7 @@ import { BookformComponent } from './components/bookform/bookform.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FormsModule,
-        NgClass
+        FormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
