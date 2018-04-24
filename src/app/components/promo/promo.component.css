@@ -1,0 +1,27 @@
+.promo__container {
+  margin: 0;
+  padding: 0;
+  min-height: 600px;
+  width: 100%;
+  background-color: #151b29;
+  background-image: url('../../../assets/images/Gratia-main_page.jpg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.promo__container-button {
+  position: absolute;
+  bottom: 90px;
+  right: 70px;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px darkgrey;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #d79b63;
+  font-family: "CrimsonText Italic", sans serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0;
+}
