@@ -2,16 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
   width: 100%;
-  border: 2px solid black;
+  background-color: #151b29;
+  padding: 15px 0;
+}
+
+.header__container-logo {
+  margin: 0 10px;
 }
 
 .header__list {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
+  width: 400px;
 }
 
 .header__list-item {
@@ -19,5 +23,13 @@
 }
 
 a {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
   text-decoration: none;
+  color: #ccc;
+  font-family: "CrimsonText Italic", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-align: center;
 }
