@@ -16,6 +16,7 @@
   justify-content: space-around;
   align-items: center;
   width: 400px;
+  margin: 0 30px;
 }
 
 .header__list-item {
@@ -29,6 +30,7 @@ a {
   text-decoration: none;
   color: #ccc;
   font-family: "CrimsonText Italic", sans-serif;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0;
   text-align: center;
