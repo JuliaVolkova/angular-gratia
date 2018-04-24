@@ -1,0 +1,100 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.offers__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0;
+  background-image: url('../../../assets/images/gratianote.png');
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 100vh;
+}
+
+.offers-title {
+  margin: 10px 5px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  z-index: 2;
+}
+
+.offers-title_note {
+  color: #ccc;
+  font-family: "CrimsonText Italic", sans-serif;
+  margin: 0;
+  font-style: italic;
+}
+
+.slider {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 10px;
+  padding: 0;
+}
+
+.slide {
+  position: relative;
+  margin: 5px 0;
+  list-style: none;
+}
+
+.slide:nth-child(2) {
+  box-shadow: 0 0 150px #ccc;
+}
+
+.slide:nth-child(1),
+.slide:nth-child(3) {
+  color: #d79b63
+}
+
+.slide__title {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  text-transform: uppercase;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a:visited {
+  color: #d79b63;
+}
+
+.offers-title_description {
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  left: 5%;
+  color: white;
+}
+
+.offers__container_button {
+  margin: 0 auto;
+  text-decoration: none;
+  color: #d79b63;
+  font-family: "CrimsonText Italic", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0;
+}
